@@ -150,7 +150,7 @@ export default function Create(){
                 <Select name="Town" options ={towns} styles = {selectStyle} value={selectedValue} inputValue={inputVal} placeholder="Town" onInputChange = {handleInputChange} onChange={handleSelectChange}/>
                 <h4>Radius</h4>
                 <input type='text' name="Radius" onChange={e => handleNumChange(e)} placeholder="Radius"></input>
-                <button type='submit'>Submit</button>
+                <button type='submit' id="submitBtn">Submit</button>
             </form>
         </div>
     )
