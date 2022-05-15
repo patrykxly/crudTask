@@ -7,7 +7,7 @@ const exampleDataArr = [
         Fund: 10000,
         Status: "on",
         Town: "Kraków",
-        Radius:"30km"
+        Radius:30
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ const exampleDataArr = [
         Fund: 1000,
         Status: "on",
         Town: "Warszawa",
-        Radius:"1000km"
+        Radius:1000
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ const exampleDataArr = [
         Fund: 100000,
         Status: "off",
         Town: "Poznań",
-        Radius:"300km"
+        Radius:300
     },
 ]
 
