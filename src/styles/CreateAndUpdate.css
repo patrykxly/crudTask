@@ -1,0 +1,146 @@
+/* Styles for smaller devices */
+@media(min-width:320px){
+    /* Return home button style */
+    #homeBtn{
+        display:flex;
+        flex-direction: row;
+        align-self:left;
+        margin-top:1em;
+        margin-left:1em;
+        padding:.7em 1em;
+        cursor:pointer;
+        color:white;
+        border:none;
+        background-color: black;
+        border-radius:2em;
+    }
+
+    /* Form styles */
+    .formContainer form{
+        text-align:center;
+        display:flex;
+        flex-direction: column;
+        margin:2em 1em;
+        background-color: rgb(237, 237, 237);
+        border-radius:3em;
+    }
+
+    .formContainer input:not(.radioBtn){
+        height:2.5em;
+        border-radius:.4em;
+        border: 1px rgb(121, 121, 121) solid;
+        margin:.5em .5em;
+    }
+
+    .formContainer .rbt{
+        margin:.5em .5em;
+    }
+
+    .formContainer .rbt input{
+        margin-top:0;
+        height:1.5em;
+        margin-left:-.1em;   
+    }
+
+    .formContainer .rbt button{
+        background-color:inherit;
+        margin-top:0;
+        border:none;
+    }
+
+    .formContainer form button{
+        margin: .5em 0;
+        align-self:center;
+        padding:.8em 1.5em;  
+        background-color: #095bd3;
+        border:1px #095bd3 solid;
+        border-radius:1em;
+        color:white;
+    }
+
+    .formContainer form hr{
+        align-self:center;
+        border-bottom: 1px black solid;
+        width:20%;
+        margin-top:0;
+    }
+
+    .formContainer form h3{
+        margin-top:1em;
+    }
+
+    .formContainer form h4{
+        margin-top:1em;
+        margin-bottom:0;
+        font-weight:400;
+    }
+
+    .formContainer .radioContainer{
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        margin-right:3em;
+        margin-top:1em;
+    }
+
+    .formContainer .radioBtn{
+        width:10em;
+        height:2em;
+        margin-right:-3em; 
+    }
+}
+
+/* Adjustments for bigger devices */
+@media (min-width:700px){
+    #homeBtn{
+        padding:1em 1.8em;
+        margin-left:0;
+    }
+
+    .formContainer form{
+        margin:2em auto;
+        padding:1em 2em 2em 2em;
+        background-color: rgb(237, 237, 237);
+        border-radius:3em;
+        width:40em;
+    }
+
+    .formContainer input:not(.radioBtn){
+        margin-top:1em;
+    }
+
+    .formContainer .rbt{
+		margin: 1em .5em 0 .5em;
+    }
+
+    .formContainer .rbt input{
+        height:1.2em;
+        margin: .4em 0;
+    }
+
+    .formContainer .rbt button{
+        background-color:inherit;
+        border:none;
+    }
+
+    .formContainer form button{
+        margin: .5em 0;
+        cursor:pointer;
+        transition: background-color .5s, color .5s;
+    }
+
+    .formContainer form button:hover{
+        color:#095bd3;
+        background-color:white;
+        font-size:400;
+    }
+	
+	.formContainer form h3{
+		margin-top:0;
+	}
+    
+    #submitBtn{
+        margin-top:1.2em;
+        margin-bottom:0;
+    }
+}
