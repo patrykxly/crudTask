@@ -7,7 +7,7 @@ import '../styles/Home.css';
 //main page
 export default function Home(){
     //useState hook to set emerald account funds
-    const [funds,setFunds] = useState(10000);
+    const [funds,setFunds] = useState(1000000);
 
     //counting funds from the given items using useEffect 
     useEffect(() => {
